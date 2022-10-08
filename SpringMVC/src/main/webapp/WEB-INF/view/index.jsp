@@ -8,10 +8,8 @@
 </head>
 <body>
 	<h1>Welcome to Spring MVC</h1>
-	<form action="processV2" method="POST">
-		<label for="fname">First name:</label><br>
-		<input type="text" id="fname" name="fname" placeholder="First Name" /><br>
-		<input type="submit" value="Submit" />
-	</form>
+	<a href="hello/showForm"><h2>Welcome Form</h2></a>
+	<a href="control/showForm"><h2>Process Form</h2></a>
+	<a href="tag/showForm"><h2>Form Tag Form</h2></a>
 </body>
 </html>
